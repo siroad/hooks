@@ -6,6 +6,6 @@ post '/payload' do
   puts "I got some JSON: #{push.inspect}"
 end
 
-get '/hi' do
+get '/payload' do
   "Hello World!"
 end
